@@ -6,6 +6,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://anoopquizapp.netlify.app/
 
+## Steps for running on your local server
+
+Clone the repository open terminal on your system and run the following commands make sure git is installed on your system:
+
+### 1
+`git clone https://github.com/gargdev/quizapp.git'
+
+### 2
+`cd quizapp'
+
+### 3
+`npm install'
+
+### 4
+`npm start'
+
 ## Available Scripts
 
 In the project directory, you can run:
