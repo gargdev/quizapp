@@ -40,11 +40,11 @@ const Quiz = () => {
   const { response} = useAxios({ url: apiUrl });
   const [questionIndex, setQuestionIndex] = useState(0);
   const [options, setOptions] = useState([]);
-  const [timer, setTimer] = useState(10); // Timer in seconds
+  const [timer, setTimer] = useState(30); // Timer in seconds
   const [nextQuestionLoading, setNextQuestionLoading] = useState(false); // Loading state for next question
 
   const startTimer = () => {
-    setTimer(10); // Reset the timer to 10 seconds
+    setTimer(30); // Reset the timer to 10 seconds
   };
 
   const handleTimerEnd = useCallback(() => {
